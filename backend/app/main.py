@@ -66,6 +66,13 @@ def update_role(
     user.role = data.role
     db.commit()
     return {"detail": "Role updated"}
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "message": "API is running 🚀",
+        "docs": "/docs"
+    }
 
 
 
