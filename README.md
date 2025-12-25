@@ -43,4 +43,9 @@ This API can be used as a backend for:
 
 ## 📁 Project Structure
 
+## 🌐 Live API
+https://fastapi-backend-soi9.onrender.com/
+
+## 📘 Swagger Documentation
+https://fastapi-backend-soi9.onrender.com/docs
 
